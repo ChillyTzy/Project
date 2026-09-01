@@ -1,0 +1,117 @@
+* {
+    font-family: "Pixelify Sans", sans-serif;
+    background-color: #feefe5;
+}
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 2px;
+  border: 3px;
+  list-style-type: none;
+  &:after {
+    content:'';
+    display:block;
+    flex-grow: 10;
+  }
+}
+
+li {
+  height: 40vh;
+  flex-grow: 1;
+  margin: 0.5vmin;
+}
+
+img {
+  max-height: 100%;
+  min-width: 100%;
+  object-fit: cover;
+  vertical-align: bottom;
+}
+
+.image-wrap {
+  position: relative;
+  width: min(100%, 1000px);
+  margin: 0 auto 120px;
+}
+
+.image-container {
+  height:auto;
+  width: 1000px;
+  border: 3px solid #3C3744;
+  margin-bottom: 25px;
+}
+
+.button button{
+  position: absolute;
+  top: 100%;
+  margin-top: 12px;
+  padding-bottom: 12px;
+  font-size: 20px;
+  padding: 12px 24px;
+  background-color: lightyellow;
+}
+
+.back-button button{
+  left: 0;
+  margin-bottom: 20px;
+}
+
+.next-button button{
+  right: 0;
+}
+
+.button {
+  transition-duration: 0.5s;
+}
+
+.button button:hover {
+  background-color: peachpuff;
+}
+
+.button button:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6);
+  
+}
+
+.interesting-box {
+  background: #feefe5;
+  border-radius: 20px;
+  /* Creates a soft, extrued 3D "clay" or neumorphic look */
+  box-shadow: 20px 20px 60px , 
+             -20px -20px 60px #e2d4d4;
+}
+
+
+body {
+  padding-bottom: 60px;
+}
+
+h1 {
+ font-size: 50px;
+ text-align: center;
+ margin-bottom: 20px;
+ text-decoration: underline 3px;
+ margin: 30px 0 20px;
+
+}
+
+p {
+  font-size: 24px;
+  text-align: center;
+  text-decoration: wavy;
+  margin:0 0 30px;
+  text-wrap: wrap;
+}
+
+.squirrel {
+  position: absolute;
+  top: 15px;
+  right: 300px;
+}
+
+.squirrel img {
+  width: 120px;
+  min-width: 0;
+  max-height: none;
+}
