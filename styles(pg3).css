@@ -1,5 +1,7 @@
 
 
+
+
 .button button{
   display: flex;
   position: absolute;
@@ -11,6 +13,8 @@
 
 .button {
   transition-duration: 0.5s;
+  position: absolute;
+  bottom: 20px;
 }
 
 .button button:hover {
@@ -22,6 +26,15 @@
   
 }
 
+.back-button {
+  left: 0;
+  top: 600px;
+}
+
+.next-button {
+  right: 60px;
+  top: 600px;
+}
 
 * {
     font-family: "Pixelify Sans", sans-serif;
@@ -55,6 +68,7 @@ body {
   padding-bottom: 550px;
 }
 .cake-container {
+  position:relative;
     padding-right: 500px;
     padding-bottom: 40px;
 }

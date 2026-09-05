@@ -1,0 +1,57 @@
+* {
+    font-family: "Pixelify Sans", sans-serif;
+    background-color: #feefe5;
+}
+
+.button button{
+  display: flex;
+  position: absolute;
+  bottom: 20px;
+  padding: 5px 10px;
+  font-size: 20px;
+  background-color: lightyellow;
+}
+
+.button {
+  transition-duration: 0.5s;
+  position: absolute;
+  bottom: 20px;
+}
+
+.button button:hover {
+  background-color: peachpuff;
+}
+
+.button button:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6);
+  
+}
+
+h1 {
+ font-size: 50px;
+ text-align: center;
+ margin-bottom: 20px;
+ text-decoration: underline 3px;
+ margin: 30px 0 20px;
+
+}
+
+h2 {
+  font-size: 40px;
+  text-align: center;
+  text-decoration: wavy;
+  margin:0 0 30px;
+  text-wrap: wrap;
+}
+
+.img-wrap {
+display:flex;
+justify-content: center;
+
+}
+
+.img-wrap img{
+    border: solid black;
+}
+
+
