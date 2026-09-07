@@ -4,12 +4,14 @@
 }
 
 .button button{
-  display: flex;
-  position: absolute;
-  bottom: 20px;
+  position: fixed;
+  bottom: 0;
   padding: 5px 10px;
   font-size: 20px;
+  margin-bottom: 20px;
   background-color: lightyellow;
+  right: 0;
+  margin-right: 30px;
 }
 
 .button {
@@ -79,4 +81,12 @@ justify-content: left;
 
 p {
     font-size: 20px;
+}
+
+.dinosaur {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    right: 400px;
+    top: 145px;
 }
