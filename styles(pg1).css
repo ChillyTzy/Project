@@ -46,7 +46,7 @@ h2 {
 
 .img-wrap {
 display:flex;
-justify-content: center;
+justify-content: left;
 
 }
 
@@ -54,4 +54,29 @@ justify-content: center;
     border: solid black;
 }
 
+.video-wrap{
+    display: flex;
+    height: 90vh;
+    justify-content: center;
+}
 
+.video-wrap video{
+    border: solid black;
+    margin-left: 20px;
+    object-fit: cover;
+    
+}
+
+.text-wrap {
+    display: flex;
+    justify-content: right;
+    white-space: normal; 
+    overflow-wrap: break-word; 
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+
+p {
+    font-size: 20px;
+}
