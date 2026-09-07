@@ -61,6 +61,11 @@ justify-content: left;
     height: 90vh;
     justify-content: center;
 }
+.image-stack {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
 
 .video-wrap video{
     border: solid black;
