@@ -1,0 +1,74 @@
+* {
+    font-family: "Pixelify Sans", sans-serif;
+    background-color: #feefe0;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+     text-decoration: underline 3px;
+}
+
+.bouquet {
+  position: relative;
+  width: 320px;
+  height: 320px;
+  margin: 40px auto;
+}
+
+.flower {
+  width: 120px;
+  image-rendering: pixelated; /* keeps pixel art crisp */
+}
+
+/* Position + rotate each flower so they fan out like a bunch */
+.flower1 {
+    position: relative;
+    right: 100px;
+ 
+}
+
+
+
+
+
+/* a simple ribbon/paper wrap at the base */
+.ribbon {
+  position: absolute;
+  left: 60px;
+  width: 180px;
+  height: 60px;
+  background: linear-gradient(135deg, #f8c8dc, #f4a6c0);
+  clip-path: polygon(10% 0%, 90% 0%, 100% 100%, 0% 100%);
+  z-index: 0;
+}
+
+.button button{
+  display: flex;
+  position: absolute;
+  bottom: 20px;
+  padding: 5px 10px;
+  font-size: 20px;
+  background-color: lightyellow;
+  left: 300px;
+}
+
+.button {
+  transition-duration: 0.5s;
+  position: absolute;
+  bottom: 20px;
+}
+
+.button button:hover {
+  background-color: peachpuff;
+}
+
+.button button:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6);
+  
+}
+
+.back-button {
+  left: 0;
+  top: 600px;
+}
